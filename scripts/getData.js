@@ -40,7 +40,7 @@ const getData = () => {
     }
 
     const getGoods = () => {
-        fetch('https://nivvas.github.io/dbase.json')
+        fetch('dbase.json')
 
             .then((response) => {
                 if (response.ok) {
